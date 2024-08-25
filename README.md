@@ -8,10 +8,11 @@ This project is a personal portfolio website built to showcase my skills, projec
 - **TypeScript**: Used for type safety and enhanced development experience.
 - **Tailwind CSS**: A utility-first CSS framework that allows for fast and responsive design implementation.
 - **Shadcn**: Leveraged for modern, accessible, and customizable UI components.
+- **Magic UI**: Used for clean animations and more interactivity.
 
 ## Features
 
-- **Not So Responsive Design**: I still working to improve the responsivity to the project.
+~~- **Not So Responsive Design**: I still working to improve the responsivity to the project.~~
 - **Minimalist UI**: Incorporates minimalist elements to make a clean and understandable UI.
 - **Project Showcase**: A dedicated section to display and detail various projects I've worked on, including links to live demos and GitHub repositories.
 - **Contact Form**: A simple and functional contact form that allows visitors to reach out directly from the website.
