@@ -3,7 +3,7 @@ export function Projects() {
 		<div className="flex flex-col pb-24 mt-6">
 			<div className="text-center justify-center align-middle">
 				<h1 className="text-3xl font-semibold">my projects</h1>
-				<p className="w-3/4 mx-auto mt-8">
+				<p className="w-3/4 mx-auto mt-8 text-sm md:text-base">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit.
 					Reiciendis enim magni voluptates cumque quo esse similique
 					mollitia dolore sapiente, quis, obcaecati minima incidunt

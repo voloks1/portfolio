@@ -1,43 +1,45 @@
 export function Header() {
 	return (
-		<header className="lg:sticky sm:fixed top-0 z-50 w-full backdrop-blur-lg h-16">
+		<header className="lg:sticky md:sticky top-0 z-50 w-full backdrop-blur-lg h-16">
 			<div className="container flex h-14 max-w-screen-2xl items-center">
 				<div className="flex flex-row mr-4 mt-4">
 					<a
-						className="mr-4 flex items-center space-x-2 lg:mr-6"
+						className="mr-0 flex items-center space-x-2 lg:mr-6"
 						href="#">
 						(imagem)
 					</a>
-					<nav className="flex items-center gap-4 text-sm lg:gap-6 ">
-						<div className="md:border-l border-zinc-500 ml-2 sm:border-0">
-							<a
-								className="transition-colors sm:ml-4 lg:ml-8 hover:text-zinc-100 text-zinc-400"
-								href="">
-								home
-							</a>
-						</div>
-						<div className="md:border-l border-zinc-500 ml-2 sm:border-0">
-							<a
-								className="transition-colors sm:ml-4 lg:ml-8 hover:text-zinc-100 text-zinc-400"
-								href="">
-								about me
-							</a>
-						</div>
-						<div className="md:border-l border-zinc-500 ml-2 sm:border-0">
-							<a
-								className="transition-colors sm:ml-4 lg:ml-8 hover:text-zinc-100 text-zinc-400"
-								href="">
-								skills
-							</a>
-						</div>
-						<div className="md:border-l border-zinc-500 ml-2 sm:border-0">
-							<a
-								className="transition-colors sm:ml-4 lg:ml-8 hover:text-zinc-100 text-zinc-400"
-								href="">
-								projects
-							</a>
-						</div>
-					</nav>
+					<div className="hidden">
+						<nav className="flex items-center gap-4 text-sm lg:gap-6">
+							<div className="md:border-l border-zinc-500 ml-2 sm:border-0">
+								<a
+									className="transition-colors sm:ml-4 lg:ml-8 hover:text-zinc-100 text-zinc-400"
+									href="">
+									home
+								</a>
+							</div>
+							<div className="md:border-l border-zinc-500 ml-2 sm:border-0">
+								<a
+									className="transition-colors sm:ml-4 lg:ml-8 hover:text-zinc-100 text-zinc-400"
+									href="">
+									about me
+								</a>
+							</div>
+							<div className="md:border-l border-zinc-500 ml-2 sm:border-0">
+								<a
+									className="transition-colors sm:ml-4 lg:ml-8 hover:text-zinc-100 text-zinc-400"
+									href="">
+									skills
+								</a>
+							</div>
+							<div className="md:border-l border-zinc-500 ml-2 sm:border-0">
+								<a
+									className="transition-colors sm:ml-4 lg:ml-8 hover:text-zinc-100 text-zinc-400"
+									href="">
+									projects
+								</a>
+							</div>
+						</nav>
+					</div>
 				</div>
 				<div className="flex flex-1 w-screen items-center justify-end sm:ml-4 md:ml-8 space-x-2 mt-6 lg:ml-12 text-sm">
 					{" "}

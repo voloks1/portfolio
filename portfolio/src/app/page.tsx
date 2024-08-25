@@ -11,9 +11,11 @@ export default function Home() {
 		<div className="min-h-screen bg-dark">
 			<Header />
 			{/* <DotBackground /> */}
-			<div className="grid grid-cols-main">
+			<div className="flex flex-col sm:grid sm:grid-cols-main">
 				<AboutMe />
+				<div className="border-zinc-900 border-b-2 w-5/6 mx-auto mb-4 sm:hidden"></div>
 				<AnotherContent />
+				<div className="border-zinc-900 border-b-2 w-5/6 mx-auto mb-4 sm:hidden"></div>
 				<Skills />
 			</div>
 			<div className="border-zinc-900 border-b-2 w-5/6 mx-auto"></div>
