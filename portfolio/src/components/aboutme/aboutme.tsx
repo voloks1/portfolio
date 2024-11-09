@@ -3,7 +3,7 @@ import WordRotate from "@/components/lib/magicui/word-rotate";
 export function AboutMe() {
 	return (
 		<div className="flex flex-col mt-12 mx-auto justify-center text-center md:justify-normal md:text-start pb-6 sm:ml-16 lg:mt-20 lg:ml-24">
-			<h1 className="text-3xl sm:text-4xl font-bold w-full leading-relaxed">
+			<h1 className="text-3xl sm:text-4xl font-bold w-full leading-relaxed max-w-[500px]">
 				hi, i&#39;m{" "}
 				<a
 					href="https://github.com/voloks1"
@@ -17,9 +17,8 @@ export function AboutMe() {
 						words={[
 							"front end developer",
 							"student",
-							"learner",
 							"music producer",
-							"reseba",
+							"learner",
 						]}
 						duration={2500}
 					/>
