@@ -45,7 +45,7 @@ To run this project locally, follow these steps:
 
 ## Usage
 
-This portfolio is intended to serve as a central hub for all of my professional work. Feel free to explore the different sections to learn more about my skills and projects. If you have any feedback or inquiries, please reach out via the contact form.
+This portfolio is intended to serve as a central hub for all of my professional work. Feel free to explore the different sections to learn more about my skills and projects.
 
 ## Contributing
 
